@@ -1,0 +1,18 @@
+/home/sadra/Documents/codes/DS/project1/q7/q5.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/DS/project1/q7/q5.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OC_7_GL
+
+Top level modules:
+	OC_7_GL
+
+} {} {}} /home/sadra/Documents/codes/DS/project1/q7/q3.sv {2 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/DS/project1/q7/q3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: /home/sadra/Documents/codes/DS/project1/q7/q3.sv(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: /home/sadra/Documents/codes/DS/project1/q7/q3.sv(12): (vlog-2284) Empty $unit scope found.
+-- Compiling package q3_sv_unit
+-- Compiling module OC_3_GL
+
+Top level modules:
+	OC_3_GL
+
+} {} {}}

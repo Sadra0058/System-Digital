@@ -1,0 +1,85 @@
+# Loading project q1
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q3
+# Compile of q3.sv was successful with warnings.
+# Compile of tb3.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb3
+# vsim work.tb3 
+# Start time: 22:13:22 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb3
+# ** Error: (vsim-3033) Instantiation of 'OC_3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb3 File: /home/sadra/Documents/codes/DS/project1/q3/tb3.sv Line: 6
+#         Searched libraries:
+#             /home/sadra/Documents/codes/DS/project1/q3/work
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Error loading design
+# End time: 22:13:22 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Load canceled
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q3
+# Compile of q1.sv was successful.
+# Compile of q3.sv was successful with warnings.
+# Compile of tb3.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb3
+# vsim work.tb3 
+# Start time: 22:14:55 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb3
+# ** Error: (vsim-3033) Instantiation of 'OC_3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb3 File: /home/sadra/Documents/codes/DS/project1/q3/tb3.sv Line: 6
+#         Searched libraries:
+#             /home/sadra/Documents/codes/DS/project1/q3/work
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Error loading design
+# End time: 22:14:55 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of q1.sv was successful.
+# Compile of q3.sv was successful with warnings.
+# Compile of tb3.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb3
+# vsim work.tb3 
+# Start time: 22:15:53 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.tb3
+# Loading work.OC_3_TL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+add wave -position end sim:/tb3/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q3/tb3.sv(29)
+#    Time: 1400 ns  Iteration: 0  Instance: /tb3
+# Break in Module tb3 at /home/sadra/Documents/codes/DS/project1/q3/tb3.sv line 29
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Compile of tb3.sv was successful.
+quit -sim
+# End time: 00:17:10 on Nov 10,2023, Elapsed time: 2:01:17
+# Errors: 0, Warnings: 7
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q4
+# Compile of q1.sv was successful.
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of tb4.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb3
+# vsim work.tb3 
+# Start time: 00:18:03 on Nov 10,2023
+# Loading sv_std.std
+# Loading work.tb3
+# Loading work.OC_3_TL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_3_AS
+add wave -position end sim:/tb3/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q4/tb4.sv(33)
+#    Time: 1500 ns  Iteration: 0  Instance: /tb3
+# Break in Module tb3 at /home/sadra/Documents/codes/DS/project1/q4/tb4.sv line 33

@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra/Documents/codes/DS/project1/q5&q6
+vOC_15
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1699650185
+!i10b 1
+!s100 [obGAzEHW?neJ0:4KN:;M0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IDKCM48WkT;<:6ZX[KX18>3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/sadra/Documents/codes/DS/project1/q7
+w1699649148
+8/home/sadra/Documents/codes/DS/project1/q7/q7.sv
+F/home/sadra/Documents/codes/DS/project1/q7/q7.sv
+!i122 66
+Z5 L0 2 11
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1699650185.000000
+!s107 /home/sadra/Documents/codes/DS/project1/q7/q7.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/DS/project1/q7/q7.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+n@o@c_15
+vOC_3_GL
+R0
+DXx4 work 10 q3_sv_unit 0 22 =Oh3ChkHf1K<WE_^HXmhJ3
+R1
+R3
+r1
+!s85 0
+!i10b 1
+!s100 mAO^Eh8=L:jF9=@Qm=Y1S1
+Ifd5?nfel]?P]Q2`aXJ?>90
+!s105 q3_sv_unit
+S1
+R4
+Z10 w1699647430
+Z11 8/home/sadra/Documents/codes/DS/project1/q7/q3.sv
+Z12 F/home/sadra/Documents/codes/DS/project1/q7/q3.sv
+!i122 64
+R5
+R6
+31
+R7
+Z13 !s107 /home/sadra/Documents/codes/DS/project1/q7/q3.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/DS/project1/q7/q3.sv|
+!i113 1
+R8
+R9
+n@o@c_3_@g@l
+vOC_7_GL
+R0
+R1
+!i10b 1
+!s100 YR82cd[eVPz<EKi3onJMg3
+R2
+IIV9XMz9LiaGEMP@[8ULb@3
+R3
+S1
+R4
+w1699647406
+8/home/sadra/Documents/codes/DS/project1/q7/q5.sv
+F/home/sadra/Documents/codes/DS/project1/q7/q5.sv
+!i122 65
+L0 2 7
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/DS/project1/q7/q5.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/DS/project1/q7/q5.sv|
+!i113 1
+R8
+R9
+n@o@c_7_@g@l
+Xq3_sv_unit
+R0
+R1
+V=Oh3ChkHf1K<WE_^HXmhJ3
+r1
+!s85 0
+!i10b 1
+!s100 A0LYWFDcAgliKRSLh=Rdf0
+I=Oh3ChkHf1K<WE_^HXmhJ3
+!i103 1
+S1
+R4
+R10
+R11
+R12
+!i122 64
+L0 1 0
+R6
+31
+R7
+R13
+R14
+!i113 1
+R8
+R9
+vtb7
+R0
+R1
+!i10b 1
+!s100 QOdgI0OM_2Zj5M_iOm9WM1
+R2
+I>eifo@:9;d0HFog75b^BM2
+R3
+S1
+R4
+w1699650180
+Z15 8/home/sadra/Documents/codes/DS/project1/q7/tb7.sv
+Z16 F/home/sadra/Documents/codes/DS/project1/q7/tb7.sv
+!i122 67
+Z17 L0 2 25
+R6
+r1
+!s85 0
+31
+R7
+Z18 !s107 /home/sadra/Documents/codes/DS/project1/q7/tb7.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/DS/project1/q7/tb7.sv|
+!i113 1
+R8
+R9
+vtbq7
+R0
+!s110 1699650044
+!i10b 1
+!s100 GSgkglGG4dIV`^DQ=8b;[1
+R2
+I]YIARg4?aLE`]l1cd6:iD0
+R3
+S1
+R4
+w1699650031
+R15
+R16
+!i122 58
+R17
+R6
+r1
+!s85 0
+31
+!s108 1699650044.000000
+R18
+R19
+!i113 1
+R8
+R9

@@ -1,0 +1,141 @@
+# Loading project q7
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q5
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb5
+# vsim work.tb5 
+# Start time: 15:47:31 on Nov 11,2023
+# Loading sv_std.std
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+add wave -position end  sim:/tb5/in
+add wave -position end  sim:/tb5/out_gl
+add wave -position end  sim:/tb5/out_as
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+restart -f
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+add wave -position end  sim:/tb5/out_gl
+restart -f
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+restart -f
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+restart -f
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(33)
+#    Time: 3 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 33
+# Compile of q3.sv was successful with warnings.
+# Compile of q4.sv was successful.
+# Compile of q5.sv was successful.
+# Compile of q6.sv was successful.
+# Compile of tb5.sv was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb5
+# Loading work.OC_7_GL
+# Loading work.q3_sv_unit
+# Loading work.OC_3_GL
+# Loading work.OC_7_AS
+# Loading work.OC_3_AS
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(42)
+#    Time: 27 us  Iteration: 0  Instance: /tb5
+# Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 42
