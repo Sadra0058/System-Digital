@@ -139,3 +139,5 @@ run -all
 # ** Note: $stop    : /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv(42)
 #    Time: 27 us  Iteration: 0  Instance: /tb5
 # Break in Module tb5 at /home/sadra/Documents/codes/DS/project1/q5&q6/tb5.sv line 42
+# Project file /home/sadra/Documents/codes/DS/project1/q5&q6/q5.mpf is write protected, data cannot be saved.
+# Unable to save project.

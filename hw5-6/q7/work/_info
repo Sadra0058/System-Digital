@@ -1,0 +1,87 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra/Documents/codes/SD/hw5-6/q6
+v_8_bit_comprator
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1701121706
+!i10b 1
+!s100 NPHOK;B6LdXb_i5UIYRM80
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ie;d2`QK@HlVjAHEEWNh[=2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/sadra/Documents/codes/SD/hw5-6/q7
+w1701121326
+8/home/sadra/Documents/codes/SD/hw5-6/q7/d.sv
+F/home/sadra/Documents/codes/SD/hw5-6/q7/d.sv
+!i122 22
+L0 2 12
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1701121706.000000
+!s107 /home/sadra/Documents/codes/SD/hw5-6/q7/d.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/hw5-6/q7/d.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@_8_bit_comprator
+vcomprator
+R0
+R1
+!i10b 1
+!s100 zQ?54njgZ0^V7b5:92jh<0
+R2
+IN6NAkUf8ifbfB6Ln<MV_L2
+R3
+S1
+R4
+w1701121547
+8/home/sadra/Documents/codes/SD/hw5-6/q7/c.sv
+F/home/sadra/Documents/codes/SD/hw5-6/q7/c.sv
+!i122 21
+L0 2 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sadra/Documents/codes/SD/hw5-6/q7/c.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/hw5-6/q7/c.sv|
+!i113 1
+R7
+R8
+vtb
+R0
+R1
+!i10b 1
+!s100 T_>O92VHMN8c=z`XHP0?>0
+R2
+IZPKX>ZH;LOoQACB^_@J>33
+R3
+S1
+R4
+w1701121702
+8/home/sadra/Documents/codes/SD/hw5-6/q7/tb.sv
+F/home/sadra/Documents/codes/SD/hw5-6/q7/tb.sv
+!i122 23
+L0 2 38
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sadra/Documents/codes/SD/hw5-6/q7/tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/hw5-6/q7/tb.sv|
+!i113 1
+R7
+R8

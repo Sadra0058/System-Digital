@@ -1,0 +1,46 @@
+/home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SY_ALU_MIN
+
+Top level modules:
+	SY_ALU_MIN
+
+} {} {}} /home/sadra/Documents/codes/SD/project2/q2min/q2min.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project2/q2min/q2min.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_MIN
+
+Top level modules:
+	ALU_MIN
+
+} {} {}} /home/sadra/Documents/codes/SD/project2/mycells.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project2/mycells.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+-- Compiling module DFF_PP0
+-- Compiling module DFF_PP1
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+	DFF_PP0
+	DFF_PP1
+
+} {} {}} /home/sadra/Documents/codes/SD/project2/q2min/tb2min.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project2/q2min/tb2min.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb2min
+
+Top level modules:
+	tb2min
+
+} {} {}} /home/sadra/Documents/codes/SD/project2/simple.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project2/simple.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple
+
+Top level modules:
+	simple
+
+} {} {}}

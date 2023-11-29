@@ -1,0 +1,249 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra/Documents/codes/SD/project2
+vALU_MIN
+Z0 !s110 1700995877
+!i10b 1
+!s100 J2V7S=7^QXzzc2XLVjCFY3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1@SLa2j]2?Ke]]CBFhiNU1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/sadra/Documents/codes/SD/project2/q2min
+w1700994177
+8/home/sadra/Documents/codes/SD/project2/q2min/q2min.v
+F/home/sadra/Documents/codes/SD/project2/q2min/q2min.v
+!i122 3
+L0 1 39
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1700995877.000000
+!s107 /home/sadra/Documents/codes/SD/project2/q2min/q2min.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project2/q2min/q2min.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@u_@m@i@n
+vDFF
+R0
+!i10b 1
+!s100 9Kc]>n0;m0OTK<i3l8?_:0
+R1
+I`4671EnQW4c[NBamL5EQM2
+R2
+R3
+Z8 w1638820552
+Z9 8/home/sadra/Documents/codes/SD/project2/mycells.v
+Z10 F/home/sadra/Documents/codes/SD/project2/mycells.v
+!i122 6
+L0 20 6
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 /home/sadra/Documents/codes/SD/project2/mycells.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project2/mycells.v|
+!i113 1
+R6
+R7
+n@d@f@f
+vDFF_PP0
+R0
+!i10b 1
+!s100 Ig4QjH@^Nee5aAjSWm?Q_2
+R1
+IhSX[=V4O]zhU6TMm4N2g;0
+R2
+R3
+R8
+R9
+R10
+!i122 6
+L0 27 10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@d@f@f_@p@p0
+vDFF_PP1
+R0
+!i10b 1
+!s100 UiV@]1Uc:BLDF`BdJoboO2
+R1
+I54nHbdRLEPV_o`zNZ5:0J3
+R2
+R3
+R8
+R9
+R10
+!i122 6
+L0 38 10
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@d@f@f_@p@p1
+vNAND
+R0
+!i10b 1
+!s100 iQeT?e=ifMkPc<9Y^9B8e2
+R1
+IcE;:0=J0:mEHMeOliT6N71
+R2
+R3
+R8
+R9
+R10
+!i122 6
+L0 8 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@a@n@d
+vNOR
+R0
+!i10b 1
+!s100 jD8b28P?Y<Be0n5^SEN6T2
+R1
+I;9Zn@MV3kRCLlfIVWUB;13
+R2
+R3
+R8
+R9
+R10
+!i122 6
+L0 14 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@r
+vNOT
+R0
+!i10b 1
+!s100 3Tm5Z8>`m[E>PKjj4J_TZ3
+R1
+I[W_IPOJ@TPN2iPdI32V5j1
+R2
+R3
+R8
+R9
+R10
+!i122 6
+L0 2 5
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+n@n@o@t
+vsimple
+R0
+!i10b 1
+!s100 SC[T@<cTQ>^bRYP?=MDGZ0
+R1
+Im^XRX<RKW9VQDU1Ic:7C[3
+R2
+R3
+w1617729643
+8/home/sadra/Documents/codes/SD/project2/simple.v
+F/home/sadra/Documents/codes/SD/project2/simple.v
+!i122 7
+L0 1 5
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sadra/Documents/codes/SD/project2/simple.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project2/simple.v|
+!i113 1
+R6
+R7
+vSY_ALU_MIN
+R0
+!i10b 1
+!s100 :k]23:M16?@FogzAoU>U;2
+R1
+I:E>9g>W]^C2maX;GQCH_H1
+R2
+R3
+w1700994532
+8/home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v
+F/home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v
+!i122 4
+L0 3 3435
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project2/q2min/synthq2min.v|
+!i113 1
+R6
+R7
+n@s@y_@a@l@u_@m@i@n
+vtb2min
+R0
+!i10b 1
+!s100 0_fZd<Y7HkFbc>JRoZi^11
+R1
+Ig>DW6UmYN2g5fQ:14P>@W0
+R2
+R3
+w1700994956
+8/home/sadra/Documents/codes/SD/project2/q2min/tb2min.v
+F/home/sadra/Documents/codes/SD/project2/q2min/tb2min.v
+!i122 5
+L0 3 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/sadra/Documents/codes/SD/project2/q2min/tb2min.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project2/q2min/tb2min.v|
+!i113 1
+R6
+R7

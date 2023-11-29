@@ -1,0 +1,15 @@
+/home/sadra/Documents/codes/SD/project1/q1/q1.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project1/q1/q1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OC_3_TL
+
+Top level modules:
+	OC_3_TL
+
+} {} {}} /home/sadra/Documents/codes/SD/project1/q1/tb1.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project1/q1/tb1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb1
+
+Top level modules:
+	tb1
+
+} {} {}}

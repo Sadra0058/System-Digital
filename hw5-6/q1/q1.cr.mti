@@ -1,0 +1,33 @@
+/home/sadra/Documents/codes/SD/hw5-6/q1/b_sy.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/hw5-6/q1/b_sy.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module complement_2_sy
+-- Compiling module half_adder
+
+Top level modules:
+	complement_2_sy
+
+} {} {}} /home/sadra/Documents/codes/SD/hw5-6/library/mycells.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/hw5-6/library/mycells.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+-- Compiling module DFF_PP0
+-- Compiling module DFF_PP1
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+	DFF_PP0
+	DFF_PP1
+
+} {} {}} /home/sadra/Documents/codes/SD/hw5-6/q1/a_sy.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/hw5-6/q1/a_sy.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module complement_1_sy
+
+Top level modules:
+	complement_1_sy
+
+} {} {}}
