@@ -1,0 +1,63 @@
+/home/sadra/Documents/codes/SD/project3/q3/ff.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q3/ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dff_ps_cl
+
+Top level modules:
+	dff_ps_cl
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q1/q1.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SR_latch_2
+-- Compiling module SR_latch_3
+
+Top level modules:
+	SR_latch_2
+	SR_latch_3
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q3/tb3g.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q3/tb3g.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb3g
+
+Top level modules:
+	tb3g
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q2/q1.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q2/q1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SR_latch_2
+-- Compiling module SR_latch_3
+
+Top level modules:
+	SR_latch_2
+	SR_latch_3
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb2c
+
+Top level modules:
+	tb2c
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q3/q1.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q3/q1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SR_latch_2
+-- Compiling module SR_latch_3
+
+Top level modules:
+	SR_latch_2
+	SR_latch_3
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q2/tb2.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q2/tb2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb2
+
+Top level modules:
+	tb2
+
+} {} {}} /home/sadra/Documents/codes/SD/project3/q2/ff.sv {1 {vlog -work work -sv -stats=none /home/sadra/Documents/codes/SD/project3/q2/ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_ff
+
+Top level modules:
+	d_ff
+
+} {} {}}

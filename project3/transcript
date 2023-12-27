@@ -1,0 +1,130 @@
+# Loading project work
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project work
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 15:12:51 on Dec 26,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+add wave -position end sim:/tb1/*
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# Break key hit
+quit -sim
+# End time: 15:17:34 on Dec 26,2023, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 1
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project w
+# Compile of ff.sv was successful.
+# Compile of q1.sv was successful.
+# Compile of tb2.sv was successful.
+# Compile of tb2c.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb2
+# vsim work.tb2 
+# Start time: 15:18:06 on Dec 26,2023
+# Loading sv_std.std
+# Loading work.tb2
+# Loading work.d_ff
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+add wave -position end sim:/tb2/*
+run -all
+# Break key hit
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+restart -f
+vsim work.tb2c
+# End time: 15:22:03 on Dec 26,2023, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 1
+# vsim work.tb2c 
+# Start time: 15:22:03 on Dec 26,2023
+# Loading sv_std.std
+# Loading work.tb2c
+# Loading work.d_ff
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv(19)
+#    Time: 255 ps  Iteration: 0  Instance: /tb2c
+# Break in Module tb2c at /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv line 19
+restart -f
+add wave -position end sim:/tb2c/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv(19)
+#    Time: 255 ps  Iteration: 0  Instance: /tb2c
+# Break in Module tb2c at /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv line 19
+restart -f
+# Compile of ff.sv was successful.
+# Compile of q1.sv was successful.
+# Compile of tb2.sv was successful.
+# Compile of tb2c.sv was successful.
+# 4 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv(19)
+#    Time: 255 ps  Iteration: 0  Instance: /tb2c
+# Break in Module tb2c at /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv line 19
+# Compile of ff.sv was successful.
+# Compile of q1.sv was successful.
+# Compile of tb2.sv was successful.
+# Compile of tb2c.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb2c
+# Loading work.d_ff
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv(19)
+#    Time: 257 ps  Iteration: 0  Instance: /tb2c
+# Break in Module tb2c at /home/sadra/Documents/codes/SD/project3/q2/tb2c.sv line 19
+restart -f
+quit -sim
+# End time: 15:29:20 on Dec 26,2023, Elapsed time: 0:07:17
+# Errors: 0, Warnings: 1
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project w
+# Compile of ff.sv was successful.
+# Compile of q1.sv was successful.
+# Compile of tb3.sv was successful.
+# Compile of tb3g.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb3
+# vsim work.tb3 
+# Start time: 15:29:51 on Dec 26,2023
+# Loading sv_std.std
+# Loading work.tb3
+# Loading work.dff_ps_cl
+# Loading work.SR_latch_3
+add wave -position end sim:/tb3/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q3/tb3.sv(20)
+#    Time: 500 ps  Iteration: 0  Instance: /tb3
+# Break in Module tb3 at /home/sadra/Documents/codes/SD/project3/q3/tb3.sv line 20
+# WARNING: No extended dataflow license exists
+# End time: 15:31:28 on Dec 26,2023, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 5

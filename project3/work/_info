@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/sadra/Documents/codes/SD/project3
+vdff_ps_cl
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1703018583
+!i10b 1
+!s100 ADU7:T>KO=I22GGAF=M8L2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I<[HYiU<R@N3lBWal:2ao91
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1703004749
+8/home/sadra/Documents/codes/SD/project3/q3/ff.sv
+F/home/sadra/Documents/codes/SD/project3/q3/ff.sv
+!i122 8
+L0 1 8
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1703018583.000000
+!s107 /home/sadra/Documents/codes/SD/project3/q3/ff.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/project3/q3/ff.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vSR_latch_2
+R1
+R2
+!i10b 1
+!s100 W?6@0Ua[SS8meCHQ4id>73
+R3
+IdmgHT7a4hB]?;o>=AU;zT3
+R4
+S1
+R0
+Z9 w1702985335
+Z10 8/home/sadra/Documents/codes/SD/project3/q3/q1.sv
+Z11 F/home/sadra/Documents/codes/SD/project3/q3/q1.sv
+!i122 9
+L0 1 4
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 /home/sadra/Documents/codes/SD/project3/q3/q1.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/project3/q3/q1.sv|
+!i113 1
+R7
+R8
+n@s@r_latch_2
+vSR_latch_3
+R1
+R2
+!i10b 1
+!s100 7QC]EJbfL08P:@34Wcg_Q0
+R3
+I`9TOUnd<m[>9c<h:5B1fF0
+R4
+S1
+R0
+R9
+R10
+R11
+!i122 9
+L0 6 4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R13
+!i113 1
+R7
+R8
+n@s@r_latch_3
+vtb3
+R1
+R2
+!i10b 1
+!s100 ?X97YKY:@4<iGek[hP1NP2
+R3
+I=KDHP`jDnmM6@H^<=OkF72
+R4
+S1
+R0
+w1703018577
+8/home/sadra/Documents/codes/SD/project3/q3/tb3.sv
+F/home/sadra/Documents/codes/SD/project3/q3/tb3.sv
+!i122 10
+Z14 L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sadra/Documents/codes/SD/project3/q3/tb3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/project3/q3/tb3.sv|
+!i113 1
+R7
+R8
+vtb3g
+R1
+R2
+!i10b 1
+!s100 Qj7e^14A^d6:ddzeXagA]0
+R3
+ICQ@l:=6PKPhC4Zi0IRVBa2
+R4
+S1
+R0
+w1703005686
+8/home/sadra/Documents/codes/SD/project3/q3/tb3g.sv
+F/home/sadra/Documents/codes/SD/project3/q3/tb3g.sv
+!i122 11
+R14
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/sadra/Documents/codes/SD/project3/q3/tb3g.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/sadra/Documents/codes/SD/project3/q3/tb3g.sv|
+!i113 1
+R7
+R8

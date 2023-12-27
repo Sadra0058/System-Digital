@@ -1,0 +1,225 @@
+# Loading project q8
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project q1
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:17:59 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'qb'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/tb1.sv Line: 6
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'qb'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/tb1.sv Line: 7
+# Error loading design
+# End time: 11:17:59 on Dec 18,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 7
+# Compile of q1.sv was successful.
+# Compile of tb1.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of q1.sv was successful.
+# Compile of tb1.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of q1.sv was successful.
+# Compile of tb1.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:21:18 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+add wave -position end sim:/tb1/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 120 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(19)
+#    Time: 700 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 19
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:21:18 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Error loading design
+# End time: 11:51:50 on Dec 18,2023, Elapsed time: 0:30:32
+# Errors: 4, Warnings: 1
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:52:37 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:52:37 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Error loading design
+# End time: 11:53:20 on Dec 18,2023, Elapsed time: 0:00:43
+# Errors: 4, Warnings: 1
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:54:42 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:54:42 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Error loading design
+# End time: 11:55:32 on Dec 18,2023, Elapsed time: 0:00:50
+# Errors: 4, Warnings: 1
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:55:47 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Error loading design
+# End time: 11:55:47 on Dec 18,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:56:16 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_2' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t1 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Loading work.SR_latch_3
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'SR_latch_3' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb1/t2 File: /home/sadra/Documents/codes/SD/project3/q1/q1.sv
+# Error loading design
+# End time: 11:56:16 on Dec 18,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of q1.sv was successful.
+# Compile of tb1.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb1
+# vsim work.tb1 
+# Start time: 11:56:26 on Dec 18,2023
+# Loading sv_std.std
+# Loading work.tb1
+# Loading work.SR_latch_2
+# Loading work.SR_latch_3
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project3/q1/tb1.sv(18)
+#    Time: 600 ps  Iteration: 0  Instance: /tb1
+# Break in Module tb1 at /home/sadra/Documents/codes/SD/project3/q1/tb1.sv line 18
+# End time: 11:57:34 on Dec 18,2023, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
