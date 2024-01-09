@@ -1,0 +1,195 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra
+vcontroller
+Z0 !s110 1704665558
+!i10b 1
+!s100 SLf6zL`EZe1ReOJ5M13QX3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;C6`3gJBz3Ne0gme6L_`d3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/sadra/Documents/codes/SD/project4/final
+w1704664824
+8/home/sadra/Documents/codes/SD/project4/final/controller.v
+F/home/sadra/Documents/codes/SD/project4/final/controller.v
+!i122 0
+L0 1 26
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1704665557.000000
+!s107 /home/sadra/Documents/codes/SD/project4/final/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/controller.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdevice
+R0
+!i10b 1
+!s100 fEbfVlI:KNb3=`nZAHdem0
+R1
+IlIScV0Han21A;<9VlDnbX3
+R2
+R3
+w1704279995
+8/home/sadra/Documents/codes/SD/project4/final/device.v
+F/home/sadra/Documents/codes/SD/project4/final/device.v
+!i122 1
+L0 1 13
+R4
+r1
+!s85 0
+31
+Z7 !s108 1704665558.000000
+!s107 /home/sadra/Documents/codes/SD/project4/final/device.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/device.v|
+!i113 1
+R5
+R6
+vmod3_counter
+R0
+!i10b 1
+!s100 KXc5NT4RJSjn_`_SgEfMj1
+R1
+I7mnh78YLHnfeC=`F;AgaN0
+R2
+R3
+w1704199761
+8/home/sadra/Documents/codes/SD/project4/final/mod3_counter.v
+F/home/sadra/Documents/codes/SD/project4/final/mod3_counter.v
+!i122 2
+Z8 L0 1 14
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/mod3_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/mod3_counter.v|
+!i113 1
+R5
+R6
+vmod8_counter
+R0
+!i10b 1
+!s100 18z=Bm@37_@75UoL<knCk2
+R1
+IMia4Dkl^5ii7PQOOW6Qn33
+R2
+R3
+w1704664823
+8/home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v
+F/home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v
+!i122 3
+R8
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v|
+!i113 1
+R5
+R6
+vnt_counter
+R0
+!i10b 1
+!s100 `h<XBc083lmT_PQ[geo]E2
+R1
+I`FLk:[n^zZa85CMl@Q?Pj3
+R2
+R3
+w1704665378
+8/home/sadra/Documents/codes/SD/project4/final/nt_counter.v
+F/home/sadra/Documents/codes/SD/project4/final/nt_counter.v
+!i122 4
+L0 1 15
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/nt_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/nt_counter.v|
+!i113 1
+R5
+R6
+vseq_dtc
+R0
+!i10b 1
+!s100 mRSoBgfH@JQIDofgo4zEl3
+R1
+I^lJ@M7o0jSP>K?4z7gVVI1
+R2
+R3
+w1704664819
+8/home/sadra/Documents/codes/SD/project4/final/seq_dct.v
+F/home/sadra/Documents/codes/SD/project4/final/seq_dct.v
+!i122 5
+L0 1 30
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/seq_dct.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/seq_dct.v|
+!i113 1
+R5
+R6
+vtb
+R0
+!i10b 1
+!s100 POU^bB=9=B;GWUQIE_;f31
+R1
+Ikg9Hl=IEXW>@<>2bQOd0>3
+R2
+R3
+w1704279991
+8/home/sadra/Documents/codes/SD/project4/final/tb.v
+F/home/sadra/Documents/codes/SD/project4/final/tb.v
+!i122 6
+L0 2 36
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/tb.v|
+!i113 1
+R5
+R6
+vtransmit
+R0
+!i10b 1
+!s100 ^;F33j?kOG39W3MH[>:1S1
+R1
+IhhOHo;cEW7dC;m2DEe<WD3
+R2
+R3
+w1704664817
+8/home/sadra/Documents/codes/SD/project4/final/trnsm.v
+F/home/sadra/Documents/codes/SD/project4/final/trnsm.v
+!i122 7
+L0 1 4
+R4
+r1
+!s85 0
+31
+R7
+!s107 /home/sadra/Documents/codes/SD/project4/final/trnsm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/final/trnsm.v|
+!i113 1
+R5
+R6

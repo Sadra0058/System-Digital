@@ -1,0 +1,40 @@
+|nt_counter
+in => parout[7]~reg0.DATAIN
+clk => clk.IN1
+rst => rst.IN1
+cnt => cnt.IN1
+ld_cnt => ld_cnt.IN1
+init0[0] => init0[0].IN1
+init0[1] => init0[1].IN1
+init0[2] => init0[2].IN1
+parout[0] <= parout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[1] <= parout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[2] <= parout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[3] <= parout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[4] <= parout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[5] <= parout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[6] <= parout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[7] <= parout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|nt_counter|mod3_counter:c
+clk => parout[0]~reg0.CLK
+clk => parout[1]~reg0.CLK
+clk => parout[2]~reg0.CLK
+rst => parout[0]~reg0.ACLR
+rst => parout[1]~reg0.ACLR
+rst => parout[2]~reg0.ACLR
+rst => parout[2].IN0
+ld_cnt => parout[2].IN1
+cnt => parout[0]~reg0.ENA
+cnt => parout[2]~reg0.ENA
+cnt => parout[1]~reg0.ENA
+init0[0] => parout[0]~reg0.ADATA
+init0[1] => parout[1]~reg0.ADATA
+init0[2] => parout[2]~reg0.ADATA
+co <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+parout[0] <= parout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[1] <= parout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[2] <= parout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

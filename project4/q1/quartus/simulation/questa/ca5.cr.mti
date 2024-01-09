@@ -1,0 +1,23 @@
+/home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_dtc_post
+-- Compiling module hard_block
+
+Top level modules:
+	seq_dtc_post
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/q1/seq_dct.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/q1/seq_dct.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_dtc
+
+Top level modules:
+	seq_dtc
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/q1/tb1.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/q1/tb1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb1
+
+Top level modules:
+	tb1
+
+} {} {}}

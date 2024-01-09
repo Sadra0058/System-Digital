@@ -1,0 +1,57 @@
+/home/sadra/Documents/codes/SD/project4/final/trnsm.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/trnsm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmit
+
+Top level modules:
+	transmit
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/device.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/device.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module device
+
+Top level modules:
+	device
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/controller.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/nt_counter.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/nt_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nt_counter
+
+Top level modules:
+	nt_counter
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/tb.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/mod3_counter.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/mod3_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mod3_counter
+
+Top level modules:
+	mod3_counter
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/seq_dct.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/seq_dct.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_dtc
+
+Top level modules:
+	seq_dtc
+
+} {} {}} /home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v {1 {vlog -work work -stats=none /home/sadra/Documents/codes/SD/project4/final/mod8_dow_cntr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mod8_counter
+
+Top level modules:
+	mod8_counter
+
+} {} {}}

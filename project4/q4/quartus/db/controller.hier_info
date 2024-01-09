@@ -1,0 +1,11 @@
+|controller
+w => ~NO_FANOUT~
+co => ~NO_FANOUT~
+carry => ~NO_FANOUT~
+ld_cnt1 << <GND>
+cnt1 << <GND>
+ld_cnt0 << <GND>
+cnt0 << <GND>
+outvalid << <GND>
+
+

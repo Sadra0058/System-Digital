@@ -1,0 +1,67 @@
+# Loading project ca5
+# Compile of seq_dtc_post.vo was successful.
+# Compile of tb1.v was successful.
+# Compile of seq_dct.v was successful.
+# 3 compiles, 0 failed with no errors.
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project Q2
+# Compile of mod3_counter.v failed with 3 errors.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of mod3_counter.v failed with 3 errors.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of mod3_counter.v failed with 1 errors.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of mod3_counter.v failed with 1 errors.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of mod3_counter.v failed with 1 errors.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of mod3_counter.v was successful.
+# Compile of tb2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of mod3_counter.v was successful.
+# Compile of tb2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb2
+# vsim work.tb2 
+# Start time: 10:17:28 on Jan 02,2024
+# Loading work.tb2
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'mod3_counter'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb2 File: /home/sadra/Documents/codes/SD/project4/q2/tb2.v Line: 9
+# Error loading design
+# End time: 10:17:28 on Jan 02,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 12
+# Compile of mod3_counter.v was successful.
+# Compile of tb2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb2
+# vsim work.tb2 
+# Start time: 10:17:58 on Jan 02,2024
+# Loading work.tb2
+# Loading work.mod3_counter
+add wave -position end sim:/tb2/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/SD/project4/q2/tb2.v(15)
+#    Time: 1070 ns  Iteration: 0  Instance: /tb2
+# Break in Module tb2 at /home/sadra/Documents/codes/SD/project4/q2/tb2.v line 15
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Project file /home/sadra/Documents/codes/SD/project4/q2/Q2.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 10:19:44 on Jan 02,2024, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 1

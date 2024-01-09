@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra/Documents/codes/SD/project4/simulation/q1
+vhard_block
+Z0 !s110 1704177804
+!i10b 1
+!s100 HYlo4nBg7mfFico6WQ4H50
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I`^hoQVh3zIoh:42Pi`CFh2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa
+Z4 w1704121080
+Z5 8/home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo
+Z6 F/home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo
+!i122 17
+L0 282 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704177804.000000
+Z9 !s107 /home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/q1/quartus/simulation/questa/seq_dtc_post.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vseq_dtc
+R0
+!i10b 1
+!s100 mRSoBgfH@JQIDofgo4zEl3
+R1
+IlAUnZn@P4f1?aUmR=2H6M2
+R2
+R3
+w1704121154
+8/home/sadra/Documents/codes/SD/project4/q1/seq_dct.v
+F/home/sadra/Documents/codes/SD/project4/q1/seq_dct.v
+!i122 19
+L0 1 30
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/sadra/Documents/codes/SD/project4/q1/seq_dct.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/q1/seq_dct.v|
+!i113 1
+R11
+R12
+vseq_dtc_post
+R0
+!i10b 1
+!s100 Z3Qb5Snj6>7bS0Ug7E3DT2
+R1
+IIB@W?`8QAdlmDN:mEcDI92
+R2
+R3
+R4
+R5
+R6
+!i122 17
+L0 32 249
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtb1
+R0
+!i10b 1
+!s100 NE[VXjk3ZbUJ4YMUmF_Y53
+R1
+Ib2QVkFT4KQSMGPXiK2[4U2
+R2
+R3
+w1704094795
+8/home/sadra/Documents/codes/SD/project4/q1/tb1.v
+F/home/sadra/Documents/codes/SD/project4/q1/tb1.v
+!i122 18
+L0 2 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/sadra/Documents/codes/SD/project4/q1/tb1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project4/q1/tb1.v|
+!i113 1
+R11
+R12

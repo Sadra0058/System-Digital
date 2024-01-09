@@ -1,0 +1,62 @@
+|transmit
+clk => clk.IN1
+rst => rst.IN1
+ld_cnt => ld_cnt.IN1
+cnt => cnt.IN1
+init[0] => init[0].IN1
+init[1] => init[1].IN1
+init[2] => init[2].IN1
+init[3] => init[3].IN1
+init[4] => init[4].IN1
+init[5] => init[5].IN1
+init[6] => init[6].IN1
+init[7] => init[7].IN1
+outvalid <= mod8_counter:c.port5
+
+
+|transmit|mod8_counter:c
+clk => parout[0]~reg0.CLK
+clk => parout[1]~reg0.CLK
+clk => parout[2]~reg0.CLK
+clk => parout[3]~reg0.CLK
+clk => parout[4]~reg0.CLK
+clk => parout[5]~reg0.CLK
+clk => parout[6]~reg0.CLK
+clk => parout[7]~reg0.CLK
+rst => parout[0]~reg0.ACLR
+rst => parout[1]~reg0.ACLR
+rst => parout[2]~reg0.ACLR
+rst => parout[3]~reg0.ACLR
+rst => parout[4]~reg0.ACLR
+rst => parout[5]~reg0.ACLR
+rst => parout[6]~reg0.ACLR
+rst => parout[7]~reg0.ACLR
+rst => parout[7].IN0
+ld_cnt => parout[7].IN1
+cnt => parout[0]~reg0.ENA
+cnt => parout[7]~reg0.ENA
+cnt => parout[6]~reg0.ENA
+cnt => parout[5]~reg0.ENA
+cnt => parout[4]~reg0.ENA
+cnt => parout[3]~reg0.ENA
+cnt => parout[2]~reg0.ENA
+cnt => parout[1]~reg0.ENA
+init[0] => parout[0]~reg0.ADATA
+init[1] => parout[1]~reg0.ADATA
+init[2] => parout[2]~reg0.ADATA
+init[3] => parout[3]~reg0.ADATA
+init[4] => parout[4]~reg0.ADATA
+init[5] => parout[5]~reg0.ADATA
+init[6] => parout[6]~reg0.ADATA
+init[7] => parout[7]~reg0.ADATA
+co <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+parout[0] <= parout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[1] <= parout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[2] <= parout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[3] <= parout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[4] <= parout[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[5] <= parout[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[6] <= parout[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+parout[7] <= parout[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
