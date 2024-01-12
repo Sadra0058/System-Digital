@@ -1,0 +1,11 @@
+
+State Machine - |device|controller:cu|ps
+Name ps.Add ps.Mul3 ps.Mul2 ps.Mul1 ps.Mul0 ps.Bgin ps.Init ps.Idle 
+ps.Idle 0 0 0 0 0 0 0 0 
+ps.Init 0 0 0 0 0 0 1 1 
+ps.Bgin 0 0 0 0 0 1 0 1 
+ps.Mul0 0 0 0 0 1 0 0 1 
+ps.Mul1 0 0 0 1 0 0 0 1 
+ps.Mul2 0 0 1 0 0 0 0 1 
+ps.Mul3 0 1 0 0 0 0 0 1 
+ps.Add 1 0 0 0 0 0 0 1 

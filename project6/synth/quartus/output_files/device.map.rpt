@@ -1,0 +1,779 @@
+Analysis & Synthesis report for device
+Wed Jan 10 00:56:30 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |device|controller:cu|ps
+  9. User-Specified and Inferred Latches
+ 10. Registers Removed During Synthesis
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: controller:cu
+ 14. Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0
+ 15. Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1
+ 16. Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_out:mac_out2
+ 17. lpm_mult Parameter Settings by Entity Instance
+ 18. Port Connectivity Checks: "DP:d|reg_16:y"
+ 19. Port Connectivity Checks: "DP:d|reg_16:x"
+ 20. Post-Synthesis Netlist Statistics for Top Partition
+ 21. Elapsed Time Per Partition
+ 22. Analysis & Synthesis Messages
+ 23. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                        ;
++------------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Wed Jan 10 00:56:30 2024          ;
+; Quartus Prime Version              ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                      ; device                                         ;
+; Top-level Entity Name              ; device                                         ;
+; Family                             ; Cyclone IV GX                                  ;
+; Total logic elements               ; 422                                            ;
+;     Total combinational functions  ; 410                                            ;
+;     Dedicated logic registers      ; 68                                             ;
+; Total registers                    ; 68                                             ;
+; Total pins                         ; 44                                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 0                                              ;
+; Embedded Multiplier 9-bit elements ; 0                                              ;
+; Total GXB Receiver Channel PCS     ; 0                                              ;
+; Total GXB Receiver Channel PMA     ; 0                                              ;
+; Total GXB Transmitter Channel PCS  ; 0                                              ;
+; Total GXB Transmitter Channel PMA  ; 0                                              ;
+; Total PLLs                         ; 0                                              ;
++------------------------------------+------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CGX15BF14A7     ;                    ;
+; Top-level entity name                                            ; device             ; device             ;
+; Family name                                                      ; Cyclone IV GX      ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                       ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                   ; Library ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
+; ../../finalpart/device.v         ; yes             ; User Verilog HDL File        ; /home/sadra/Documents/codes/SD/project6/finalpart/device.v                     ;         ;
+; ../../part1/controller.v         ; yes             ; User Verilog HDL File        ; /home/sadra/Documents/codes/SD/project6/part1/controller.v                     ;         ;
+; ../../part2/components.v         ; yes             ; User Verilog HDL File        ; /home/sadra/Documents/codes/SD/project6/part2/components.v                     ;         ;
+; ../../part2/datapath.v           ; yes             ; User Verilog HDL File        ; /home/sadra/Documents/codes/SD/project6/part2/datapath.v                       ;         ;
+; ../../part2/lut.v                ; yes             ; User Verilog HDL File        ; /home/sadra/Documents/codes/SD/project6/part2/lut.v                            ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/lpm_mult.tdf     ;         ;
+; aglobal231.inc                   ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/aglobal231.inc   ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/lpm_add_sub.inc  ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/multcore.inc     ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/bypassff.inc     ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/altshift.inc     ;         ;
+; db/mult_1ht.tdf                  ; yes             ; Auto-Generated Megafunction  ; /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf          ;         ;
+; alt_mac_mult.tdf                 ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/alt_mac_mult.tdf ;         ;
+; lpm_mult.inc                     ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/lpm_mult.inc     ;         ;
+; db/mac_mult_r2h1.tdf             ; yes             ; Auto-Generated Megafunction  ; /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mac_mult_r2h1.tdf     ;         ;
+; db/mult_jul.tdf                  ; yes             ; Auto-Generated Megafunction  ; /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf          ;         ;
+; alt_mac_out.tdf                  ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/alt_mac_out.tdf  ;         ;
+; alt_zaccum.inc                   ; yes             ; Megafunction                 ; /home/sadra/intelFPGA/quartus/quartus/libraries/megafunctions/alt_zaccum.inc   ;         ;
+; db/mac_out_kv82.tdf              ; yes             ; Auto-Generated Megafunction  ; /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mac_out_kv82.tdf      ;         ;
++----------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary      ;
++--------------------------+-----------------------+
+; Resource                 ; Usage                 ;
++--------------------------+-----------------------+
+; I/O pins                 ; 44                    ;
+;                          ;                       ;
+; DSP block 9-bit elements ; 0                     ;
+;                          ;                       ;
+; Maximum fan-out node     ; controller:cu|ps.Mul0 ;
+; Maximum fan-out          ; 77                    ;
+; Total fan-out            ; 1675                  ;
+; Average fan-out          ; 2.96                  ;
++--------------------------+-----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                    ;
++--------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------+---------------+--------------+
+; Compilation Hierarchy Node                       ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                           ; Entity Name   ; Library Name ;
++--------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------+---------------+--------------+
+; |device                                          ; 410 (1)             ; 68 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 44   ; 0            ; |device                                                                                                                       ; device        ; work         ;
+;    |DP:d|                                        ; 403 (0)             ; 60 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d                                                                                                                  ; DP            ; work         ;
+;       |LUT:l|                                    ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|LUT:l                                                                                                            ; LUT           ; work         ;
+;       |Mul:mx|                                   ; 285 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx                                                                                                           ; Mul           ; work         ;
+;          |lpm_mult:Mult0|                        ; 285 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx|lpm_mult:Mult0                                                                                            ; lpm_mult      ; work         ;
+;             |mult_1ht:auto_generated|            ; 285 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated                                                                    ; mult_1ht      ; work         ;
+;                |alt_mac_mult:mac_mult1|          ; 285 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1                                             ; alt_mac_mult  ; work         ;
+;                   |mac_mult_r2h1:auto_generated| ; 285 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated                ; mac_mult_r2h1 ; work         ;
+;                      |mult_jul:mult1|            ; 285 (285)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1 ; mult_jul      ; work         ;
+;       |comparator:comp|                          ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|comparator:comp                                                                                                  ; comparator    ; work         ;
+;       |counter_4:cntr|                           ; 5 (5)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|counter_4:cntr                                                                                                   ; counter_4     ; work         ;
+;       |mux_2_to_1:m1|                            ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|mux_2_to_1:m1                                                                                                    ; mux_2_to_1    ; work         ;
+;       |mux_2_to_1:m2|                            ; 14 (14)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|mux_2_to_1:m2                                                                                                    ; mux_2_to_1    ; work         ;
+;       |mux_2_to_1:m3|                            ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|mux_2_to_1:m3                                                                                                    ; mux_2_to_1    ; work         ;
+;       |reg_16:r|                                 ; 18 (18)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|reg_16:r                                                                                                         ; reg_16        ; work         ;
+;       |reg_16:t|                                 ; 17 (17)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|reg_16:t                                                                                                         ; reg_16        ; work         ;
+;       |reg_16:x|                                 ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|reg_16:x                                                                                                         ; reg_16        ; work         ;
+;       |reg_16:y|                                 ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|reg_16:y                                                                                                         ; reg_16        ; work         ;
+;       |sub_add:as|                               ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|DP:d|sub_add:as                                                                                                       ; sub_add       ; work         ;
+;    |controller:cu|                               ; 6 (6)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |device|controller:cu                                                                                                         ; controller    ; work         ;
++--------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+-----------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------+---------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++----------------------------------------------------------------------------------------+
+; State Machine - |device|controller:cu|ps                                               ;
++---------+--------+---------+---------+---------+---------+---------+---------+---------+
+; Name    ; ps.Add ; ps.Mul3 ; ps.Mul2 ; ps.Mul1 ; ps.Mul0 ; ps.Bgin ; ps.Init ; ps.Idle ;
++---------+--------+---------+---------+---------+---------+---------+---------+---------+
+; ps.Idle ; 0      ; 0       ; 0       ; 0       ; 0       ; 0       ; 0       ; 0       ;
+; ps.Init ; 0      ; 0       ; 0       ; 0       ; 0       ; 0       ; 1       ; 1       ;
+; ps.Bgin ; 0      ; 0       ; 0       ; 0       ; 0       ; 1       ; 0       ; 1       ;
+; ps.Mul0 ; 0      ; 0       ; 0       ; 0       ; 1       ; 0       ; 0       ; 1       ;
+; ps.Mul1 ; 0      ; 0       ; 0       ; 1       ; 0       ; 0       ; 0       ; 1       ;
+; ps.Mul2 ; 0      ; 0       ; 1       ; 0       ; 0       ; 0       ; 0       ; 1       ;
+; ps.Mul3 ; 0      ; 1       ; 0       ; 0       ; 0       ; 0       ; 0       ; 1       ;
+; ps.Add  ; 1      ; 0       ; 0       ; 0       ; 0       ; 0       ; 0       ; 1       ;
++---------+--------+---------+---------+---------+---------+---------+---------+---------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                 ;
++----------------------------------------------------+-----------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal   ; Free of Timing Hazards ;
++----------------------------------------------------+-----------------------+------------------------+
+; controller:cu|tmode                                ; controller:cu|ps.Mul1 ; yes                    ;
+; Number of user-specified and inferred latches = 1  ;                       ;                        ;
++----------------------------------------------------+-----------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; controller:cu|ps~4                    ; Lost fanout        ;
+; controller:cu|ps~5                    ; Lost fanout        ;
+; controller:cu|ps~6                    ; Lost fanout        ;
+; Total Number of Removed Registers = 3 ;                    ;
++---------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 68    ;
+; Number of registers using Synchronous Clear  ; 3     ;
+; Number of registers using Synchronous Load   ; 16    ;
+; Number of registers using Asynchronous Clear ; 68    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 60    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |device|DP:d|reg_16:r|out[12]      ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |device|DP:d|reg_16:t|out[9]       ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |device|DP:d|counter_4:cntr|out[0] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: controller:cu ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; Idle           ; 000   ; Unsigned Binary                   ;
+; Init           ; 001   ; Unsigned Binary                   ;
+; Bgin           ; 010   ; Unsigned Binary                   ;
+; Mul0           ; 011   ; Unsigned Binary                   ;
+; Mul1           ; 100   ; Unsigned Binary                   ;
+; Mul2           ; 101   ; Unsigned Binary                   ;
+; Mul3           ; 110   ; Unsigned Binary                   ;
+; Add            ; 111   ; Unsigned Binary                   ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0          ;
++------------------------------------------------+---------------+---------------------+
+; Parameter Name                                 ; Value         ; Type                ;
++------------------------------------------------+---------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON            ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF           ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON            ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF           ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 16            ; Untyped             ;
+; LPM_WIDTHB                                     ; 16            ; Untyped             ;
+; LPM_WIDTHP                                     ; 32            ; Untyped             ;
+; LPM_WIDTHR                                     ; 32            ; Untyped             ;
+; LPM_WIDTHS                                     ; 1             ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED      ; Untyped             ;
+; LPM_PIPELINE                                   ; 0             ; Untyped             ;
+; LATENCY                                        ; 0             ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO            ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO            ; Untyped             ;
+; USE_EAB                                        ; OFF           ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 6             ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone IV GX ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL        ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT           ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0             ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0             ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_1ht      ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx            ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx            ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF           ; Untyped             ;
++------------------------------------------------+---------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1 ;
++------------------------------+---------------+-----------------------------------------------------------------------------+
+; Parameter Name               ; Value         ; Type                                                                        ;
++------------------------------+---------------+-----------------------------------------------------------------------------+
+; LPM_WIDTHS                   ; 1             ; Untyped                                                                     ;
+; DATAA_WIDTH                  ; 16            ; Untyped                                                                     ;
+; DATAB_WIDTH                  ; 16            ; Untyped                                                                     ;
+; DATAA_CLOCK                  ; NONE          ; Untyped                                                                     ;
+; DATAB_CLOCK                  ; NONE          ; Untyped                                                                     ;
+; SIGNA_CLOCK                  ; NONE          ; Untyped                                                                     ;
+; SIGNB_CLOCK                  ; NONE          ; Untyped                                                                     ;
+; OUTPUT_CLOCK                 ; NONE          ; Untyped                                                                     ;
+; DATAA_CLEAR                  ; NONE          ; Untyped                                                                     ;
+; DATAB_CLEAR                  ; NONE          ; Untyped                                                                     ;
+; SIGNA_CLEAR                  ; NONE          ; Untyped                                                                     ;
+; SIGNB_CLEAR                  ; NONE          ; Untyped                                                                     ;
+; OUTPUT_CLEAR                 ; NONE          ; Untyped                                                                     ;
+; ROUND_CLOCK                  ; none          ; Untyped                                                                     ;
+; ROUND_CLEAR                  ; none          ; Untyped                                                                     ;
+; SATURATE_CLOCK               ; none          ; Untyped                                                                     ;
+; SATURATE_CLEAR               ; none          ; Untyped                                                                     ;
+; BYPASS_MULTIPLIER            ; NO            ; Untyped                                                                     ;
+; DYNAMIC_SCAN_CHAIN_SUPPORTED ; NO            ; Untyped                                                                     ;
+; USING_ROUNDING               ; NO            ; Untyped                                                                     ;
+; USING_SATURATION             ; NO            ; Untyped                                                                     ;
+; EXTRA_OUTPUT_CLOCK           ; none          ; Untyped                                                                     ;
+; EXTRA_SIGNA_CLOCK            ; none          ; Untyped                                                                     ;
+; EXTRA_SIGNB_CLOCK            ; none          ; Untyped                                                                     ;
+; EXTRA_OUTPUT_CLEAR           ; none          ; Untyped                                                                     ;
+; EXTRA_SIGNA_CLEAR            ; none          ; Untyped                                                                     ;
+; EXTRA_SIGNB_CLEAR            ; none          ; Untyped                                                                     ;
+; MULT_PIPELINE                ; 0             ; Untyped                                                                     ;
+; MULT_CLOCK                   ; NONE          ; Untyped                                                                     ;
+; MULT_CLEAR                   ; NONE          ; Untyped                                                                     ;
+; MULT_REPRESENTATION_A        ; UNSIGNED      ; Untyped                                                                     ;
+; MULT_REPRESENTATION_B        ; UNSIGNED      ; Untyped                                                                     ;
+; MULT_INPUT_A_IS_CONSTANT     ; NO            ; Untyped                                                                     ;
+; MULT_INPUT_B_IS_CONSTANT     ; NO            ; Untyped                                                                     ;
+; MULT_INPUT_A_FIXED_VALUE     ; Bx            ; Untyped                                                                     ;
+; MULT_INPUT_B_FIXED_VALUE     ; Bx            ; Untyped                                                                     ;
+; MULT_MAXIMIZE_SPEED          ; 5             ; Untyped                                                                     ;
+; CBXI_PARAMETER               ; mac_mult_r2h1 ; Untyped                                                                     ;
++------------------------------+---------------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_out:mac_out2 ;
++-------------------------------+--------------+---------------------------------------------------------------------------+
+; Parameter Name                ; Value        ; Type                                                                      ;
++-------------------------------+--------------+---------------------------------------------------------------------------+
+; OPERATION_MODE                ; OUTPUT_ONLY  ; Untyped                                                                   ;
+; DATAA_WIDTH                   ; 32           ; Untyped                                                                   ;
+; DATAB_WIDTH                   ; 0            ; Untyped                                                                   ;
+; DATAC_WIDTH                   ; 0            ; Untyped                                                                   ;
+; DATAD_WIDTH                   ; 0            ; Untyped                                                                   ;
+; ADDNSUB0_CLOCK                ; NONE         ; Untyped                                                                   ;
+; ADDNSUB1_CLOCK                ; NONE         ; Untyped                                                                   ;
+; ROUND0_CLOCK                  ; none         ; Untyped                                                                   ;
+; ROUND1_CLOCK                  ; none         ; Untyped                                                                   ;
+; SATURATE_CLOCK                ; none         ; Untyped                                                                   ;
+; MULTABSATURATE_CLOCK          ; none         ; Untyped                                                                   ;
+; MULTCDSATURATE_CLOCK          ; none         ; Untyped                                                                   ;
+; ZEROACC_CLOCK                 ; NONE         ; Untyped                                                                   ;
+; SIGNA_CLOCK                   ; NONE         ; Untyped                                                                   ;
+; SIGNB_CLOCK                   ; NONE         ; Untyped                                                                   ;
+; OUTPUT_CLOCK                  ; NONE         ; Untyped                                                                   ;
+; ADDNSUB0_CLEAR                ; NONE         ; Untyped                                                                   ;
+; ADDNSUB1_CLEAR                ; NONE         ; Untyped                                                                   ;
+; ROUND0_CLEAR                  ; none         ; Untyped                                                                   ;
+; ROUND1_CLEAR                  ; none         ; Untyped                                                                   ;
+; SATURATE_CLEAR                ; none         ; Untyped                                                                   ;
+; MULTABSATURATE_CLEAR          ; none         ; Untyped                                                                   ;
+; MULTCDSATURATE_CLEAR          ; none         ; Untyped                                                                   ;
+; ZEROACC_CLEAR                 ; NONE         ; Untyped                                                                   ;
+; SIGNA_CLEAR                   ; NONE         ; Untyped                                                                   ;
+; SIGNB_CLEAR                   ; NONE         ; Untyped                                                                   ;
+; OUTPUT_CLEAR                  ; NONE         ; Untyped                                                                   ;
+; ADDNSUB0_PIPELINE_CLOCK       ; NONE         ; Untyped                                                                   ;
+; ADDNSUB1_PIPELINE_CLOCK       ; NONE         ; Untyped                                                                   ;
+; ROUND0_PIPELINE_CLOCK         ; none         ; Untyped                                                                   ;
+; ROUND1_PIPELINE_CLOCK         ; none         ; Untyped                                                                   ;
+; SATURATE_PIPELINE_CLOCK       ; none         ; Untyped                                                                   ;
+; MULTABSATURATE_PIPELINE_CLOCK ; none         ; Untyped                                                                   ;
+; MULTCDSATURATE_PIPELINE_CLOCK ; none         ; Untyped                                                                   ;
+; ZEROACC_PIPELINE_CLOCK        ; NONE         ; Untyped                                                                   ;
+; SIGNA_PIPELINE_CLOCK          ; NONE         ; Untyped                                                                   ;
+; SIGNB_PIPELINE_CLOCK          ; NONE         ; Untyped                                                                   ;
+; ADDNSUB0_PIPELINE_CLEAR       ; NONE         ; Untyped                                                                   ;
+; ADDNSUB1_PIPELINE_CLEAR       ; NONE         ; Untyped                                                                   ;
+; ROUND0_PIPELINE_CLEAR         ; none         ; Untyped                                                                   ;
+; ROUND1_PIPELINE_CLEAR         ; none         ; Untyped                                                                   ;
+; SATURATE_PIPELINE_CLEAR       ; none         ; Untyped                                                                   ;
+; MULTABSATURATE_PIPELINE_CLEAR ; none         ; Untyped                                                                   ;
+; MULTCDSATURATE_PIPELINE_CLEAR ; none         ; Untyped                                                                   ;
+; ZEROACC_PIPELINE_CLEAR        ; NONE         ; Untyped                                                                   ;
+; SIGNA_PIPELINE_CLEAR          ; NONE         ; Untyped                                                                   ;
+; SIGNB_PIPELINE_CLEAR          ; NONE         ; Untyped                                                                   ;
+; MODE0_CLOCK                   ; none         ; Untyped                                                                   ;
+; MODE1_CLOCK                   ; none         ; Untyped                                                                   ;
+; ZEROACC1_CLOCK                ; none         ; Untyped                                                                   ;
+; SATURATE1_CLOCK               ; none         ; Untyped                                                                   ;
+; OUTPUT1_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT2_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT3_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT4_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT5_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT6_CLOCK                 ; none         ; Untyped                                                                   ;
+; OUTPUT7_CLOCK                 ; none         ; Untyped                                                                   ;
+; MODE0_CLEAR                   ; none         ; Untyped                                                                   ;
+; MODE1_CLEAR                   ; none         ; Untyped                                                                   ;
+; ZEROACC1_CLEAR                ; none         ; Untyped                                                                   ;
+; SATURATE1_CLEAR               ; none         ; Untyped                                                                   ;
+; OUTPUT1_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT2_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT3_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT4_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT5_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT6_CLEAR                 ; none         ; Untyped                                                                   ;
+; OUTPUT7_CLEAR                 ; none         ; Untyped                                                                   ;
+; MODE0_PIPELINE_CLOCK          ; none         ; Untyped                                                                   ;
+; MODE1_PIPELINE_CLOCK          ; none         ; Untyped                                                                   ;
+; ZEROACC1_PIPELINE_CLOCK       ; none         ; Untyped                                                                   ;
+; SATURATE1_PIPELINE_CLOCK      ; none         ; Untyped                                                                   ;
+; MODE0_PIPELINE_CLEAR          ; none         ; Untyped                                                                   ;
+; MODE1_PIPELINE_CLEAR          ; none         ; Untyped                                                                   ;
+; ZEROACC1_PIPELINE_CLEAR       ; none         ; Untyped                                                                   ;
+; SATURATE1_PIPELINE_CLEAR      ; none         ; Untyped                                                                   ;
+; FIRST_ADDER0_CLOCK            ; NONE         ; Untyped                                                                   ;
+; FIRST_ADDER1_CLOCK            ; NONE         ; Untyped                                                                   ;
+; FIRST_ADDER0_CLEAR            ; NONE         ; Untyped                                                                   ;
+; FIRST_ADDER1_CLEAR            ; NONE         ; Untyped                                                                   ;
+; DATAA_FORCED_TO_ZERO          ; NO           ; Untyped                                                                   ;
+; DATAC_FORCED_TO_ZERO          ; NO           ; Untyped                                                                   ;
+; USING_ROUNDING                ; NO           ; Untyped                                                                   ;
+; USING_SATURATION              ; NO           ; Untyped                                                                   ;
+; USING_MULT_SATURATION         ; NO           ; Untyped                                                                   ;
+; USING_LOADABLE_ACCUM          ; NO           ; Untyped                                                                   ;
+; LOADABLE_ACCUM_SUPPORTED      ; NO           ; Untyped                                                                   ;
+; USING_CHAINOUT                ; NO           ; Untyped                                                                   ;
+; CHAININ_WIDTH                 ; 0            ; Untyped                                                                   ;
+; CHAINOUT_PIPELINE_CLOCK       ; none         ; Untyped                                                                   ;
+; CHAINOUT_PIPELINE_CLEAR       ; none         ; Untyped                                                                   ;
+; CBXI_PARAMETER                ; mac_out_kv82 ; Untyped                                                                   ;
++-------------------------------+--------------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                     ;
++---------------------------------------+----------------------------+
+; Name                                  ; Value                      ;
++---------------------------------------+----------------------------+
+; Number of entity instances            ; 1                          ;
+; Entity Instance                       ; DP:d|Mul:mx|lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 16                         ;
+;     -- LPM_WIDTHB                     ; 16                         ;
+;     -- LPM_WIDTHP                     ; 32                         ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                   ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                         ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                         ;
+;     -- USE_EAB                        ; OFF                        ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                       ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                         ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                         ;
++---------------------------------------+----------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "DP:d|reg_16:y"                                                                            ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                             ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+; init       ; Input  ; Info     ; Stuck at GND                                                                        ;
+; in[15..8]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; out[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------------------+
+; Port Connectivity Checks: "DP:d|reg_16:x" ;
++------+-------+----------+-----------------+
+; Port ; Type  ; Severity ; Details         ;
++------+-------+----------+-----------------+
+; init ; Input ; Info     ; Stuck at GND    ;
++------+-------+----------+-----------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 44                          ;
+; cycloneiii_ff         ; 68                          ;
+;     CLR               ; 8                           ;
+;     ENA CLR           ; 41                          ;
+;     ENA CLR SCLR      ; 3                           ;
+;     ENA CLR SLD       ; 16                          ;
+; cycloneiii_lcell_comb ; 411                         ;
+;     arith             ; 148                         ;
+;         1 data inputs ; 2                           ;
+;         2 data inputs ; 8                           ;
+;         3 data inputs ; 138                         ;
+;     normal            ; 263                         ;
+;         0 data inputs ; 3                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 47                          ;
+;         3 data inputs ; 58                          ;
+;         4 data inputs ; 154                         ;
+;                       ;                             ;
+; Max LUT depth         ; 11.90                       ;
+; Average LUT depth     ; 8.23                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Wed Jan 10 00:56:23 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off device -c device
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /home/sadra/Documents/codes/SD/project6/finalpart/device.v
+    Info (12023): Found entity 1: device File: /home/sadra/Documents/codes/SD/project6/finalpart/device.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/sadra/Documents/codes/SD/project6/part1/controller.v
+    Info (12023): Found entity 1: controller File: /home/sadra/Documents/codes/SD/project6/part1/controller.v Line: 1
+Info (12021): Found 6 design units, including 6 entities, in source file /home/sadra/Documents/codes/SD/project6/part2/components.v
+    Info (12023): Found entity 1: reg_16 File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 1
+    Info (12023): Found entity 2: counter_4 File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 11
+    Info (12023): Found entity 3: mux_2_to_1 File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 21
+    Info (12023): Found entity 4: sub_add File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 25
+    Info (12023): Found entity 5: comparator File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 29
+    Info (12023): Found entity 6: Mul File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 33
+Info (12021): Found 1 design units, including 1 entities, in source file /home/sadra/Documents/codes/SD/project6/part2/datapath.v
+    Info (12023): Found entity 1: DP File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/sadra/Documents/codes/SD/project6/part2/lut.v
+    Info (12023): Found entity 1: LUT File: /home/sadra/Documents/codes/SD/project6/part2/lut.v Line: 1
+Info (12127): Elaborating entity "device" for the top level hierarchy
+Info (12128): Elaborating entity "controller" for hierarchy "controller:cu" File: /home/sadra/Documents/codes/SD/project6/finalpart/device.v Line: 4
+Warning (10235): Verilog HDL Always Construct warning at controller.v(18): variable "tmode" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/sadra/Documents/codes/SD/project6/part1/controller.v Line: 18
+Warning (10240): Verilog HDL Always Construct warning at controller.v(10): inferring latch(es) for variable "tmode", which holds its previous value in one or more paths through the always construct File: /home/sadra/Documents/codes/SD/project6/part1/controller.v Line: 10
+Info (10041): Inferred latch for "tmode" at controller.v(10) File: /home/sadra/Documents/codes/SD/project6/part1/controller.v Line: 10
+Info (12128): Elaborating entity "DP" for hierarchy "DP:d" File: /home/sadra/Documents/codes/SD/project6/finalpart/device.v Line: 6
+Info (12128): Elaborating entity "mux_2_to_1" for hierarchy "DP:d|mux_2_to_1:m0" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 9
+Info (12128): Elaborating entity "reg_16" for hierarchy "DP:d|reg_16:x" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 14
+Info (12128): Elaborating entity "counter_4" for hierarchy "DP:d|counter_4:cntr" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 19
+Warning (10230): Verilog HDL assignment warning at components.v(16): truncated value with size 32 to match size of target (4) File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 16
+Info (12128): Elaborating entity "LUT" for hierarchy "DP:d|LUT:l" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 20
+Info (12128): Elaborating entity "Mul" for hierarchy "DP:d|Mul:mx" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 22
+Info (12128): Elaborating entity "sub_add" for hierarchy "DP:d|sub_add:as" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 23
+Info (12128): Elaborating entity "comparator" for hierarchy "DP:d|comparator:comp" File: /home/sadra/Documents/codes/SD/project6/part2/datapath.v Line: 25
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "DP:d|Mul:mx|Mult0" File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 35
+Info (12130): Elaborated megafunction instantiation "DP:d|Mul:mx|lpm_mult:Mult0" File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 35
+Info (12133): Instantiated megafunction "DP:d|Mul:mx|lpm_mult:Mult0" with the following parameter: File: /home/sadra/Documents/codes/SD/project6/part2/components.v Line: 35
+    Info (12134): Parameter "LPM_WIDTHA" = "16"
+    Info (12134): Parameter "LPM_WIDTHB" = "16"
+    Info (12134): Parameter "LPM_WIDTHP" = "32"
+    Info (12134): Parameter "LPM_WIDTHR" = "32"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_1ht.tdf
+    Info (12023): Found entity 1: mult_1ht File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 29
+Info (270001): Converted 1 DSP block slices
+    Info (270002): Used 1 DSP blocks before DSP block balancing
+        Info (270003): Used 1 DSP block slices in "Simple Multiplier (18-bit)" mode implemented in approximately 1 DSP blocks
+    Info (270013): Converted the following 1 DSP block slices to logic elements
+        Info (270006): DSP block slice in "Simple Multiplier (18-bit)" mode with output node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|mac_out2" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 45
+            Info (270004): DSP block output node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|mac_out2" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 45
+            Info (270005): DSP block multiplier node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|mac_mult1" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 36
+    Info (270002): Used 0 DSP blocks after DSP block balancing
+Info (12130): Elaborated megafunction instantiation "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 36
+Info (12133): Instantiated megafunction "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1" with the following parameter: File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 36
+    Info (12134): Parameter "MULT_REPRESENTATION_A" = "UNSIGNED"
+    Info (12134): Parameter "MULT_REPRESENTATION_B" = "UNSIGNED"
+    Info (12134): Parameter "MULT_PIPELINE" = "0"
+    Info (12134): Parameter "MULT_CLOCK" = "NONE"
+    Info (12134): Parameter "MULT_CLEAR" = "NONE"
+    Info (12134): Parameter "MULT_INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MULT_INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "dataa_width" = "16"
+    Info (12134): Parameter "datab_width" = "16"
+    Info (12134): Parameter "output_width" = "32"
+    Info (12134): Parameter "dataa_clock" = "NONE"
+    Info (12134): Parameter "datab_clock" = "NONE"
+    Info (12134): Parameter "signa_clock" = "NONE"
+    Info (12134): Parameter "signb_clock" = "NONE"
+    Info (12134): Parameter "output_clock" = "NONE"
+    Info (12134): Parameter "dataa_clear" = "NONE"
+    Info (12134): Parameter "datab_clear" = "NONE"
+    Info (12134): Parameter "signa_clear" = "NONE"
+    Info (12134): Parameter "signb_clear" = "NONE"
+    Info (12134): Parameter "output_clear" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mac_mult_r2h1.tdf
+    Info (12023): Found entity 1: mac_mult_r2h1 File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mac_mult_r2h1.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_jul.tdf
+    Info (12023): Found entity 1: mult_jul File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 29
+Info (12130): Elaborated megafunction instantiation "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_out:mac_out2" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 45
+Info (12133): Instantiated megafunction "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_out:mac_out2" with the following parameter: File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_1ht.tdf Line: 45
+    Info (12134): Parameter "OPERATION_MODE" = "OUTPUT_ONLY"
+    Info (12134): Parameter "dataa_width" = "32"
+    Info (12134): Parameter "datab_width" = "0"
+    Info (12134): Parameter "datac_width" = "0"
+    Info (12134): Parameter "datad_width" = "0"
+    Info (12134): Parameter "output_width" = "32"
+    Info (12134): Parameter "signa_clock" = "NONE"
+    Info (12134): Parameter "signb_clock" = "NONE"
+    Info (12134): Parameter "addnsub0_clock" = "NONE"
+    Info (12134): Parameter "addnsub1_clock" = "NONE"
+    Info (12134): Parameter "zeroacc_clock" = "NONE"
+    Info (12134): Parameter "first_adder0_clock" = "NONE"
+    Info (12134): Parameter "first_adder1_clock" = "NONE"
+    Info (12134): Parameter "output_clock" = "NONE"
+    Info (12134): Parameter "signa_clear" = "NONE"
+    Info (12134): Parameter "signb_clear" = "NONE"
+    Info (12134): Parameter "addnsub0_clear" = "NONE"
+    Info (12134): Parameter "addnsub1_clear" = "NONE"
+    Info (12134): Parameter "zeroacc_clear" = "NONE"
+    Info (12134): Parameter "first_adder0_clear" = "NONE"
+    Info (12134): Parameter "first_adder1_clear" = "NONE"
+    Info (12134): Parameter "output_clear" = "NONE"
+    Info (12134): Parameter "signa_pipeline_clock" = "NONE"
+    Info (12134): Parameter "signb_pipeline_clock" = "NONE"
+    Info (12134): Parameter "addnsub0_pipeline_clock" = "NONE"
+    Info (12134): Parameter "addnsub1_pipeline_clock" = "NONE"
+    Info (12134): Parameter "zeroacc_pipeline_clock" = "NONE"
+    Info (12134): Parameter "signa_pipeline_clear" = "NONE"
+    Info (12134): Parameter "signb_pipeline_clear" = "NONE"
+    Info (12134): Parameter "addnsub0_pipeline_clear" = "NONE"
+    Info (12134): Parameter "addnsub1_pipeline_clear" = "NONE"
+    Info (12134): Parameter "zeroacc_pipeline_clear" = "NONE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mac_out_kv82.tdf
+    Info (12023): Found entity 1: mac_out_kv82 File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mac_out_kv82.tdf Line: 23
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following LCELL buffer node(s):
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[17]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[16]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[17]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[16]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[15]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[14]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[13]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[12]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[16]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[15]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[14]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[13]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[12]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[11]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[10]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le12a[9]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 49
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following LCELL buffer node(s):
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[15]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[14]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[13]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le10a[12]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 47
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[11]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le11a[10]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 48
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le8a[17]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 54
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le8a[16]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 54
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le9a[17]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 55
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le9a[16]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 55
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le9a[15]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 55
+        Warning (14320): Synthesized away node "DP:d|Mul:mx|lpm_mult:Mult0|mult_1ht:auto_generated|alt_mac_mult:mac_mult1|mac_mult_r2h1:auto_generated|mult_jul:mult1|le9a[14]" File: /home/sadra/Documents/codes/SD/project6/synth/quartus/db/mult_jul.tdf Line: 55
+Info (13014): Ignored 396 buffer(s)
+    Info (13016): Ignored 16 CARRY_SUM buffer(s)
+    Info (13019): Ignored 380 SOFT buffer(s)
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 3 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file /home/sadra/Documents/codes/SD/project6/synth/quartus/output_files/device.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 466 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 27 input pins
+    Info (21059): Implemented 17 output pins
+    Info (21061): Implemented 422 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
+    Info: Peak virtual memory: 491 megabytes
+    Info: Processing ended: Wed Jan 10 00:56:30 2024
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:18
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in /home/sadra/Documents/codes/SD/project6/synth/quartus/output_files/device.map.smsg.
+
+

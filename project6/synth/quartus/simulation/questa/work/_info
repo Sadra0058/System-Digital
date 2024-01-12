@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra/Documents/codes/SD/project6
+vdevice
+Z0 !s110 1704838103
+!i10b 1
+!s100 acJDKT`_]_Vg`[ZzX1BEd0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Inj38aG4Uh4n=d6LnKJU0S3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/sadra/Documents/codes/SD/project6/synth/quartus/simulation/questa
+Z4 w1704835603
+Z5 8/home/sadra/Documents/codes/SD/project6/synth/quartus/simulation/questa/device.vo
+Z6 F/home/sadra/Documents/codes/SD/project6/synth/quartus/simulation/questa/device.vo
+!i122 14
+L0 32 10101
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704838103.000000
+Z9 !s107 /home/sadra/Documents/codes/SD/project6/synth/quartus/simulation/questa/device.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project6/synth/quartus/simulation/questa/device.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vhard_block
+R0
+!i10b 1
+!s100 VC=5IAJZZ;0^^`@A1LjaE3
+R1
+I7R;d][TQ9SW]YF^0_M01S3
+R2
+R3
+R4
+R5
+R6
+!i122 14
+L0 10134 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtb
+R0
+!i10b 1
+!s100 ^hZl_<@S6TmUa5KjEeM5@0
+R1
+ITXP^@PXC0T3Jz[joU>FV<0
+R2
+R3
+w1704838093
+8/home/sadra/Documents/codes/SD/project6/synth/tb.v
+F/home/sadra/Documents/codes/SD/project6/synth/tb.v
+!i122 15
+L0 2 19
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/sadra/Documents/codes/SD/project6/synth/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/SD/project6/synth/tb.v|
+!i113 1
+R11
+R12
