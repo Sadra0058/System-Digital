@@ -1,0 +1,37 @@
+`timescale 1ps/1ps
+module tb_top ();
+    reg [4:0] vi;
+    reg [1:0] ui;
+    reg clk = 0 , rst = 1 , start = 0;
+    wire [15:0] cocat_vi;
+    wire[20:0] wr_data;
+    wire w_done , wr_reg;
+
+    concat Concat(
+        .vin(vi),
+        .vout(cocat_vi)
+    );
+
+    wrapper Wrapper(
+    .clk(clk), 
+    .rst(rst),
+    .w_start(start),
+    .vi(cocat_vi),
+    .ui(ui),
+    .wr_reg(wr_reg),
+    .w_done(w_done),
+    .wr_data(wr_data)
+);
+
+always #30 clk = ~clk;
+
+initial begin
+    vi = 5'b11111;
+    ui = 2'b01;
+    #60 rst = 0;
+    start = 1;
+    #60 start = 0;
+    #100000 $stop; 
+end
+
+endmodule

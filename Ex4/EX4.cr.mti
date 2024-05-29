@@ -1,0 +1,85 @@
+{/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/LUTExp.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/LUTExp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Controller.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Datapath.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/adder.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/tb_modules.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/tb_modules.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_modules
+
+Top level modules:
+	tb_modules
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register18.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register18.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/exponential.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/exponential.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/multiplier.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Counter.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/mux2to1.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/mux2to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}}

@@ -194,7 +194,6 @@ module DDS (input clk , rst , output[7:0] Q);
 endmodule
 
 module PWM(input clk,input rst,input [7:0] in,output out);
-
     wire [7:0] count;
     wire carry;
     counter_8_bit counter (clk,rst,count,carry);

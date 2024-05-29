@@ -1,0 +1,8 @@
+{/home/sadra/Documents/codes/system digital/Ex3/dp.v} {1 {vlog -work work -stats=none {/home/sadra/Documents/codes/system digital/Ex3/dp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_path
+
+Top level modules:
+	data_path
+
+} {} {}}

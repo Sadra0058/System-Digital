@@ -1,0 +1,337 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/sadra
+vamp_selector
+Z0 !s110 1716069181
+!i10b 1
+!s100 []5jbaVdJ>K^lQ<`z1PZL1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8cTfHi4:5;1`J5FlO47PX3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/sadra/Documents/codes/system digital/Ex3/simulate
+Z4 w1716066820
+Z5 8/home/sadra/Documents/codes/system digital/Ex3/components.v
+Z6 F/home/sadra/Documents/codes/system digital/Ex3/components.v
+!i122 48
+L0 101 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1716069181.000000
+Z9 !s107 /home/sadra/Documents/codes/system digital/Ex3/components.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/system digital/Ex3/components.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcounter_6_bit
+R0
+!i10b 1
+!s100 <bTHU_MmPbi6:M62jfl?F3
+R1
+I:nhT>oHPUHW=gdGMl8fn`2
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 13 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcounter_8_bit
+R0
+!i10b 1
+!s100 F]kkf961F[mb5bBeAO3n?2
+R1
+I45czWGAYi_o0h^M7SmUoM2
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 1 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcounter_9_bit
+R0
+!i10b 1
+!s100 ZYU:?N@Xn]eF`TOQL11hM3
+R1
+IXc^i`1RBfgI[c=X=lG;ZG0
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 26 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdata_path
+R0
+!i10b 1
+!s100 FBke90ZSCImQC>oN5BHK30
+R1
+IkTn4g]9XlAW809oPDd3?G1
+R2
+R3
+w1715507939
+8/home/sadra/Documents/codes/system digital/Ex3/dp.v
+F/home/sadra/Documents/codes/system digital/Ex3/dp.v
+!i122 49
+L0 1 35
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/sadra/Documents/codes/system digital/Ex3/dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/system digital/Ex3/dp.v|
+!i113 1
+R11
+R12
+vDDS
+R0
+!i10b 1
+!s100 XET7F8gZ?X00kYS`7LXFB2
+R1
+IznT;N]hVoIZT8PkO=14Bi1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 187 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@d@d@s
+vDDS_controller
+R0
+!i10b 1
+!s100 JjUnfIc]^j^EU30a>b5nd0
+R1
+I7mNWLzVP:GGKFB3YEOOUi1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 152 33
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@d@d@s_controller
+vDDS_Unit
+R0
+!i10b 1
+!s100 ^B6EzlC`HLGD`kM<L4SYi2
+R1
+IWabX=l112f>Tihl]FL9XX1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 129 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@d@d@s_@unit
+vfreq_selector
+R0
+!i10b 1
+!s100 @o=gzkMi??1dS7<J7T[=f2
+R1
+I`:ZGcj@H7=m0]VdO7_SZU1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 93 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vgenerator
+R0
+!i10b 1
+!s100 :8JO<29:^_Z2dgNmVhjPF1
+R1
+IioYm7`1jRZkZ4jTh;aRzm1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 39 44
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmux_7_to_1
+R0
+!i10b 1
+!s100 2G:VVmXYfg5EFfZUkle6]2
+R1
+IR?4JdDT_ZOL0DZg@kQKiZ1
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 114 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vPWM
+R0
+!i10b 1
+!s100 TVnQX9`0PKCOOA2I2@9;01
+R1
+Izn]RRFBY0H@O1cO[SDaYB3
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 196 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@w@m
+vtb
+R0
+!i10b 1
+!s100 X:GFXlh3]YWMfYgd=5oI63
+R1
+ImiDXczM4@fH>VNeiNjbPP3
+R2
+R3
+w1716069163
+8/home/sadra/Documents/codes/system digital/Ex3/tb.v
+F/home/sadra/Documents/codes/system digital/Ex3/tb.v
+!i122 50
+L0 1 25
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/sadra/Documents/codes/system digital/Ex3/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/sadra/Documents/codes/system digital/Ex3/tb.v|
+!i113 1
+R11
+R12
+vwave_form_generator
+R0
+!i10b 1
+!s100 5S98<JLi`@WPG?LEj<aei3
+R1
+Il9:BRTOl63RmRN<;KSKXA0
+R2
+R3
+R4
+R5
+R6
+!i122 48
+L0 84 8
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,680 @@
+# Loading project ex3
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project EX4
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v failed with 3 errors.
+# 11 compiles, 1 failed with 3 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 13:38:32 on May 19,2024
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1/dP/regx File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register.v
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# Error loading design
+# End time: 13:38:32 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 6
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 13:39:05 on May 19,2024
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1/dP/regx File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/register.v
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# Error loading design
+# End time: 13:39:05 on May 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim work.tb
+# vsim work.tb 
+# Start time: 13:39:41 on May 19,2024
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 21
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(21): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 23
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(23): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 25
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(25): [TFMPC] - Missing connection for port 'x'.
+add wave -position end sim:/tb/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(14)
+#    Time: 2092 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 14
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 21
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(21): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 23
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(23): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 25
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(25): [TFMPC] - Missing connection for port 'x'.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(14)
+#    Time: 2100 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 14
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 22
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(22): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 24
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(24): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 26
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(26): [TFMPC] - Missing connection for port 'x'.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(15)
+#    Time: 2115 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 15
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 22
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(22): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 24
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(24): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 26
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(26): [TFMPC] - Missing connection for port 'x'.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(15)
+#    Time: 2160 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 15
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 22
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(22): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 24
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(24): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 26
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(26): [TFMPC] - Missing connection for port 'x'.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(15)
+#    Time: 2180 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 15
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test1'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test1 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 22
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(22): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test2'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test2 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 24
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(24): [TFMPC] - Missing connection for port 'x'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'test3'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/test3 File: /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v Line: 26
+# ** Warning: (vsim-3722) /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(26): [TFMPC] - Missing connection for port 'x'.
+run
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(15)
+#    Time: 2180 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 15
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.exponential
+# Loading work.controller
+# Loading work.datapath
+# Loading work.register
+# Loading work.counter
+# Loading work.LUT
+# Loading work.mux2to1
+# Loading work.multiplier
+# Loading work.adder
+# Loading work.register18
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v(15)
+#    Time: 2180 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at /home/sadra/Documents/codes/system digital/Ex4/ExpAccCodes/tb.v line 15
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.tb_modules
+# End time: 14:26:44 on May 19,2024, Elapsed time: 0:47:03
+# Errors: 0, Warnings: 6
+# vsim work.tb_modules 
+# Start time: 14:26:44 on May 19,2024
+# Loading work.tb_modules
+# Loading work.comb_shift
+add wave -position end sim:/tb_modules/*
+run -all
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v failed with 1 errors.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v failed with 1 errors.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v failed with 1 errors.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 1 failed with 1 error.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+run -continue
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+run -all
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# 13 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_modules
+# Loading work.comb_shift
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v(8)
+#    Time: 1 ns  Iteration: 0  Instance: /tb_modules
+# Break in Module tb_modules at /home/sadra/Documents/codes/system digital/Ex4/tb_modules.v line 8
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v failed with 3 errors.
+# 14 compiles, 1 failed with 3 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v failed with 3 errors.
+# 14 compiles, 1 failed with 3 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v failed with 2 errors.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v failed with 20 errors.
+# 14 compiles, 1 failed with 20 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v failed with 2 errors.
+# 14 compiles, 1 failed with 2 errors.
+# Compile of adder.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of exponential.v was successful.
+# Compile of LUTExp.v was successful.
+# Compile of multiplier.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of register.v was successful.
+# Compile of register18.v was successful.
+# Compile of tb.v was successful.
+# Compile of components.v was successful.
+# Compile of tb_modules.v was successful.
+# Compile of wrapperctrl.v was successful.
+# 14 compiles, 0 failed with no errors.

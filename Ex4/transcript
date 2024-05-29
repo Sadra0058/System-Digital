@@ -1,0 +1,46 @@
+# Loading project EX4
+# reading /home/sadra/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project test
+# Compile of tb_mem.v was successful.
+# Compile of ADDER32.v was successful.
+# Compile of ALU.v was successful.
+# Compile of controller.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of data_path.v was successful.
+# Compile of ImmExt.v was successful.
+# Compile of Instruction_memory.v was successful.
+# Compile of multi2to1.v was successful.
+# Compile of multi4to1.v was successful.
+# Compile of PC.v was successful.
+# Compile of processor.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 19:02:10 on May 19,2024
+# Loading work.tb_top
+# Loading work.Processor
+# Loading work.controller
+# Loading work.data_path
+# Loading work.register_file
+# Loading work.ALU
+# Loading work.data_memory
+# Loading work.ImmExt
+# Loading work.InstructionMemory
+# Loading work.register_32bit
+# Loading work.adder_32bit
+# Loading work.mux_2to1
+# Loading work.mux_4to1
+add wave -position end sim:/tb_top/googoli/DP/ref_file/*
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/computer Arc/Architecture/CA2/TB.v(10)
+#    Time: 5 ns  Iteration: 0  Instance: /tb_top
+# Break in Module tb_top at /home/sadra/Documents/codes/computer Arc/Architecture/CA2/TB.v line 10
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position end  sim:/tb_top/googoli/DP/ref_file/registers
+run -all
+# ** Note: $stop    : /home/sadra/Documents/codes/computer Arc/Architecture/CA2/TB.v(10)
+#    Time: 5 ns  Iteration: 0  Instance: /tb_top
+# Break in Module tb_top at /home/sadra/Documents/codes/computer Arc/Architecture/CA2/TB.v line 10
